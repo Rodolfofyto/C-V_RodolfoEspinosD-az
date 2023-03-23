@@ -12,18 +12,36 @@ a{
     color: black;
 }
 
+body{
+    width: 50%;
+    display: flex;
+}
+
+
 /* Estilos Aside */
 
+aside{
+    flex: 1;
+    background-color: rgb(40, 38, 38);
+    color: white;
+}
+
 figure{
-    width: 17%;
+    width: 100%;
 }
 
 svg{
-    width: 2%;
+    width: 10%;
+}
+
+a{
+    color: #ffffff;
 }
 
 /* Estilos Main */
-
+ main {
+    flex: 1.5;
+ }
 
 
 
